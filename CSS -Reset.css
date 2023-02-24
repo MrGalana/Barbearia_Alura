@@ -1,0 +1,50 @@
+/* || CSS-Reset*/
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	line-height: 1.2;
+	-webkit-font-smoothing: antialiased;
+	font-size: clamp(1rem, 1vw, 1.2rem);
+	overflow-x: hidden;
+}
+
+img, picture, svg {
+	display: block;
+	width: 100%;
+}
+
+input, button, select, a {
+	font: inherit;
+	color: inherit;
+}
+
+p, h1, h2, h3 {
+	overflow-wrap: break-word;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	cursor: pointer;
+}
