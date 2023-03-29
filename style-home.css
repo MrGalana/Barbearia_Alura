@@ -1,3 +1,6 @@
+/* fiz so esse merge para testar como funciona o merge */
+
+/* Tenta usar as classes como selector, voce usara mais o ID para o javascript */
 #banner {
     width: 100%
 }
@@ -15,6 +18,12 @@
     text-align: center
 }
 
+/* tenta nao se repetir, nem sempre e possivel */
+/* 
+    p, #missao {
+        text-align: center;
+    }
+*/
 p {
     text-align: center
 }
